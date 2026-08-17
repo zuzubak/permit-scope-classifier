@@ -119,14 +119,15 @@ c = scope of work:
   N = a new building is constructed, no demolition -- including when it also contains a basement/secondary suite.
   G = a new garden/laneway suite (small detached structure in a rear yard), including converting a garage into one.
   V = an EXISTING building's use is converted ("convert SFD to duplex", "change of use"), no demolition or addition.
-  A = an addition/extension to an EXISTING house (front/rear/side, extra storey) that adds a unit.
-  L = interior work inside an EXISTING structure that adds a unit, no addition or conversion language. Default for a plain basement/secondary suite proposal.
+  A = the building's FOOTPRINT or ENVELOPE physically grows -- a front/rear/side addition, an extension, an extra storey. The building gets bigger.
+  L = interior work only, within the existing envelope -- the building does NOT get bigger. Default for a plain basement/secondary suite proposal.
   X = severing/splitting a lot.
   U = not enough information (truncated text, bare revision notes, administrative language).
 
 Rules:
 - f and c are INDEPENDENT. N+B is common (new house built with a basement apartment); L+B is also common (basement suite retrofitted into an old house). The word "basement" alone does NOT mean the building is existing.
 - New-build signals: "construct new", "proposed construction", vacant lot. Existing-building signals: "existing", "add a unit to", "convert".
+- "ADD a unit/suite/2nd suite" means adding a DWELLING, not building an addition. Choose A only if the text says the structure itself gets bigger (addition, extension, extra storey, enlarge). "Proposal to add a 2nd suite in the basement of an existing detached dwelling" = L, NOT A.
 - Demolition AND construction together = T, even if it says "duplex".
 - Garage-to-laneway-suite = G, not A.
 - An addition to the MAIN house = A, not N -- the original building still stands.
