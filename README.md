@@ -73,21 +73,3 @@ The script narrows to the in-scope population to gentle density permits first:
 - non-empty `DESCRIPTION`
 
 Pass `--no-filter` to bypass all of that.
-
-## Performance
-
-Built for a **CPU-only** machine. Numbers below were measured on an Intel Core Ultra
-5 135U (12 cores, 15 W, no discrete GPU) with a single 16 GB DDR5-5600 stick, against
-the real Toronto permit dataset (4,940 gentle density permits / 4,678 distinct descriptions).
-
-Measured with `qwen3.5:4b`, per permit:
-
-| Configuration | Per permit | Full dataset |
-|---|---|---|
-| 1 permit/request, verbose prompt + enum names | ~29 s | ~38 h |
-| batch of 10, verbose | ~16.6 s | ~21 h |
-| **batch of 10, compact codes (current default)** | **~10 s** | **~13 h** |
-| same, on `qwen3.5:2b` | ~6 s | ~8 h |
-
-So a full run is an overnight job. Use `--limit n` to measure your own throughput
-before committing to a full run.
