@@ -78,7 +78,7 @@ Pass `--no-filter` to bypass all of that.
 
 Built for a **CPU-only** machine. Numbers below were measured on an Intel Core Ultra
 5 135U (12 cores, 15 W, no discrete GPU) with a single 16 GB DDR5-5600 stick, against
-the real Toronto permit dataset (4,940 in-scope permits / 4,678 distinct descriptions).
+the real Toronto permit dataset (4,940 gentle density permits / 4,678 distinct descriptions).
 
 Measured with `qwen3.5:4b`, per permit:
 
