@@ -42,6 +42,7 @@ python classify_permits.py -i cleared.csv active.csv -o classified.csv --resume
 
 Ctrl-C is safe — results are flushed row by row. Re-run with `--resume` to continue,
 adding `--retry-failed` to also redo any rows whose `status` isn't `ok`.
+```
 
 ### Key flags
 
