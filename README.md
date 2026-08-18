@@ -33,10 +33,10 @@ Ollama must be running (`ollama serve`, or the desktop app).
 
 ## Usage
 
-# Full run, resumable
+### Full run, resumable
 python classify_permits.py -i permits.csv -o classified.csv --resume
 
-# Cleared + active exports together
+### Cleared + active exports together
 python classify_permits.py -i cleared.csv active.csv -o classified.csv --resume
 ```
 
